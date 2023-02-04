@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+:root{
+    --heading-font: "Rowdies";
+    --paragraph-font: "Heebo", Helvetica, sans-serif;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +15,7 @@
 nav a{
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -19,7 +28,8 @@ nav a{
 
 #hero-img{   
     margin: 0 auto;
-    width: 100%;
+    display: block;
+    max-width: 60%;
 }
 
 .button-box{
@@ -37,10 +47,15 @@ main section{
 
 body{
     background-color: #CEE5F2;
+    font-family: "Heebo";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     background-color: #CEE5F2;
+    font-family: "Heebo";
 }
 
 nav a:hover{
@@ -52,6 +67,11 @@ nav a:hover{
     background-color: #CEE5F2 ;
     color: #404E4D;
     text-decoration: none;
+    font-family: "Heebo";
+    font-size: 1.5em;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -61,16 +81,23 @@ nav a:hover{
 
 .msg{
     background-color: #CEE5F2 ;
+    font-family: "Heebo";
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer{
     background-color: #CEE5F2;
     color: #404E4D;
+    font-family: "Heebo";
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
     color: #404E4D;
     text-decoration: none;
+    font-family: "Heebo";
 }
 
 footer a:hover{
@@ -79,6 +106,7 @@ footer a:hover{
 
 footer p{
     font-size: 1.2em;
+    font-family: "Heebo";
 }
 
 footer p a:hover{
@@ -87,17 +115,27 @@ footer p a:hover{
 
 .home-title{
     color: #404E4D;
+    font-family: "Rowdies";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
     color: #404E4D;
+    font-family: "Heebo";
+    font-size: 1.25em;
 }
 .msg h2{
     color: #404E4D;
+    font-family: "Rowdies";
+    font-size: 1.75em;
 }
 
 .msg p{
     color: #404E4D;
+    font-family: "Heebo";
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .logo{
@@ -105,6 +143,29 @@ h4{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
+h2 {
+    margin: 0;
+}
 
+#logo_link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border:10px solid #63595C;
+}
+
+main section img{
+    box-sizing: border-box;
+}
