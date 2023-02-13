@@ -1,0 +1,35 @@
+#largeheader{
+    font-size: 2em;
+}
+#ab{
+    margin: 20px 50px;
+    background-color: bisque;
+}
+#hw{
+    font-size: 3em;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+#pic{
+    float: right;
+    width: 350px;
+    padding: 15px;
+}
+div{
+    margin: 50px;
+    background-color: lightgray;
+    border-radius: 50px;
+    border: solid black 2px;
+}
+#waterheading{
+    margin: 50px;
+    color: orange;
+}
+#waterpg{
+    margin: 50px;
+    color: purple;
+}
+section{
+    display: grid;
+}
