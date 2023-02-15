@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Squad Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Squad Regular'), url('SquadRegular.woff') format('woff');
+}
+body{
+    background-color: #333;
+}
+#grid-container{
+    display: inline-block;
+    position: relative;
+    margin: 150px auto;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 300px 500px;
+    grid-template-rows: 200px 400px;
+    border-style: solid rgba(#000, .2);
+    justify-content: center;
+    align-content: center;
+}
+h3{
+    color: #555;
+}
+#image{
+    grid-column: 1; 
+    float: left;
+    width:100%;
+    padding: 0px;
+}
+#close{
+    float: right;
+}
+#form{
+    grid-column: 2;
+    color: #555;
+}
+#sub{
+    background-color: #E39968;
+    color: white;
+    align-items: center;
+    align-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+} 
+section{
+    font-family: 'Squad Regular';
+    background-color: white;  
+    padding:auto;
+    overflow: hidden;  
+}
+#text{
+    padding: 30px;
+    text-align: center;
+}
+
+#email{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+}
+#name{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+}
