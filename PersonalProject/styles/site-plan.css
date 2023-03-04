@@ -177,3 +177,13 @@ nav a:hover {
 #thelogo{
     width: 100px;
 }
+
+.image{
+  width: 600px;
+}
+
+.wireframes{
+  border: solid black;
+  border-width: 1px;
+  width: 1000px;
+}
